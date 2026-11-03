@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo/logo-vertical-4x.png" alt="Logo da Magin Dreamers em pixel art: lua crescente, cristal e órbita sobre o letreiro MAGIN DREAMERS STUDIO, em dourado sobre azul-noite" width="328">
+  <img src="animacao/logo-vertical-4x.gif" alt="Logo animada da Magin Dreamers em pixel art: lua crescente, cristal e órbita sobre o letreiro MAGIN DREAMERS STUDIO, em dourado sobre azul-noite" width="328">
 </p>
 
 <h1 align="center">Magin Dreamers: marca</h1>
@@ -10,6 +10,7 @@
 
 | Pasta | Conteúdo |
 | --- | --- |
+| `animacao/` | Estrelas piscando, brilho descendo no cristal e luz correndo na órbita, em laço de 32 quadros (90 ms cada): GIF e folha de quadros do avatar, do símbolo e da logo vertical. |
 | `logo/` | Logo completa nas versões vertical e horizontal, com fundo e transparente. |
 | `avatar/` | Símbolo com margem pro recorte redondo: foto da org, WhatsApp, Discord, itch, Trello. `8x` = 640 px, `16x` = 1280 px. |
 | `simbolo/` | Só o símbolo (lua, cristal e órbita), pra avatar e ícone. |

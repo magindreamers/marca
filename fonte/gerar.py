@@ -174,12 +174,17 @@ def salvar(grade, pasta, nome, escalas):
             ampliada.save(pasta / f"{nome}-{escala}x{sufixo}.png")
 
 
-simbolo = ler_grade(FONTE / "simbolo.txt")
-letras = ler_letras(FONTE / "letras.txt")
-for pasta in ("simbolo", "logo", "avatar"):
-    for antigo in (RAIZ / pasta).glob("*.png"):
-        antigo.unlink()
-salvar(simbolo, RAIZ / "simbolo", "simbolo", (4, 8, 16))
-salvar(logo_vertical(simbolo, letras), RAIZ / "logo", "logo-vertical", (2, 4, 8))
-salvar(logo_horizontal(simbolo, letras), RAIZ / "logo", "logo-horizontal", (2, 4, 8))
-salvar(avatar(simbolo, 8), RAIZ / "avatar", "avatar", (8, 16))
+def gerar_tudo():
+    simbolo = ler_grade(FONTE / "simbolo.txt")
+    letras = ler_letras(FONTE / "letras.txt")
+    for pasta in ("simbolo", "logo", "avatar"):
+        for antigo in (RAIZ / pasta).glob("*.png"):
+            antigo.unlink()
+    salvar(simbolo, RAIZ / "simbolo", "simbolo", (4, 8, 16))
+    salvar(logo_vertical(simbolo, letras), RAIZ / "logo", "logo-vertical", (2, 4, 8))
+    salvar(logo_horizontal(simbolo, letras), RAIZ / "logo", "logo-horizontal", (2, 4, 8))
+    salvar(avatar(simbolo, 8), RAIZ / "avatar", "avatar", (8, 16))
+
+
+if __name__ == "__main__":
+    gerar_tudo()
