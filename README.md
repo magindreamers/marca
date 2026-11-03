@@ -4,29 +4,33 @@
 
 <h1 align="center">Magin Dreamers: marca</h1>
 
-<p align="center">Identidade visual da Magin Dreamers em pixel art.</p>
+<p align="center">Identidade visual da Magin Dreamers em pixel art no padrão 32 bits.</p>
 
 ## O que tem aqui
 
 | Pasta | Conteúdo |
 | --- | --- |
 | `logo/` | Logo completa nas versões vertical e horizontal, com fundo e transparente. |
-| `avatar/` | Símbolo com margem pro recorte redondo: foto da org, WhatsApp, Discord, itch, Trello. `16x` = 640 px, `32x` = 1280 px. |
+| `avatar/` | Símbolo com margem pro recorte redondo: foto da org, WhatsApp, Discord, itch, Trello. `8x` = 640 px, `16x` = 1280 px. |
 | `simbolo/` | Só o símbolo (lua, cristal e órbita), pra avatar e ícone. |
 
-Cada arte vem no tamanho original (`1x`) e ampliada sem perder o pixel (`4x`, `8x`, `16x`...).
+Cada arte vem no tamanho original (`1x`) e ampliada sem perder o pixel (`2x`, `4x`, `8x`...).
 
 <p align="center"><img src="logo/logo-horizontal-4x.png" alt="Logo horizontal da Magin Dreamers em pixel art" width="464"></p>
 
 ## Cores
 
-| Cor | Hex | Uso |
-| --- | --- | --- |
-| Azul-noite | `#00152A` | fundo |
-| Dourado escuro | `#805C2E` | sombra, órbita de trás |
-| Dourado | `#C69E54` | cor principal |
-| Dourado claro | `#EACC82` | luz |
-| Brilho | `#FCF0C8` | ponto mais claro, estrelas |
+Rampa de 6 tons de dourado sobre azul-noite, em cor de 15 bits.
+
+| Cor | Hex |
+| --- | --- |
+| Azul-noite (fundo) | `#001028` |
+| Dourado 1 (sombra) | `#482820` |
+| Dourado 2 | `#784828` |
+| Dourado 3 | `#A87038` |
+| Dourado 4 | `#D0A050` |
+| Dourado 5 | `#E8C878` |
+| Dourado 6 (brilho) | `#F8E8C0` |
 
 ## Uso
 
