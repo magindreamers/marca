@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="simbolo/simbolo-256.png" alt="Símbolo da Magin Dreamers em pixel art: lua crescente, cristal e órbita em dourado sobre azul-noite" width="256">
+  <img src="logo/logo-vertical-4x.png" alt="Logo da Magin Dreamers em pixel art: lua crescente, cristal e órbita sobre o letreiro MAGIN DREAMERS STUDIO, em dourado sobre azul-noite" width="328">
 </p>
 
 <h1 align="center">Magin Dreamers: marca</h1>
@@ -10,7 +10,12 @@
 
 | Pasta | Conteúdo |
 | --- | --- |
-| `simbolo/` | O símbolo (lua, cristal e órbita) em 32 px e ampliado sem perder o pixel, com fundo e transparente. |
+| `logo/` | Logo completa nas versões vertical e horizontal, com fundo e transparente. |
+| `simbolo/` | Só o símbolo (lua, cristal e órbita), pra avatar e ícone. |
+
+Cada arte vem no tamanho original (`1x`) e ampliada sem perder o pixel (`4x`, `8x`, `16x`...).
+
+<p align="center"><img src="logo/logo-horizontal-4x.png" alt="Logo horizontal da Magin Dreamers em pixel art" width="464"></p>
 
 ## Cores
 
