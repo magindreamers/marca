@@ -13,6 +13,7 @@
 | `animacao/` | Estrelas piscando, brilho descendo no cristal e luz correndo na órbita, em laço de 32 quadros (90 ms cada): GIF e folha de quadros do avatar, do símbolo e da logo vertical. |
 | `logo/` | Logo completa nas versões vertical e horizontal, com fundo e transparente. |
 | `avatar/` | Símbolo com margem pro recorte redondo: foto da org, WhatsApp, Discord, itch, Trello. `8x` = 640 px, `16x` = 1280 px. |
+| `banner/` | capas prontas: Trello 1920x1080, YouTube 2560x1440, X 1500x500, LinkedIn 1128x191, Discord 960x540 |
 | `simbolo/` | Só o símbolo (lua, cristal e órbita), pra avatar e ícone. |
 
 Cada arte vem no tamanho original (`1x`) e ampliada sem perder o pixel (`2x`, `4x`, `8x`...).
