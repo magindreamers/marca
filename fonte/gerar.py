@@ -98,6 +98,13 @@ def logo_horizontal(simbolo, letras):
     return grade
 
 
+def avatar(simbolo, margem):
+    largura = len(simbolo[0]) + margem * 2
+    grade = tela(largura, len(simbolo) + margem * 2)
+    colar(grade, simbolo, margem, margem)
+    return grade
+
+
 def desenhar(grade, transparente=False):
     modo = "RGBA" if transparente else "RGB"
     imagem = Image.new(modo, (len(grade[0]), len(grade)))
@@ -126,3 +133,4 @@ letras = ler_letras(FONTE / "letras.txt")
 salvar(simbolo, RAIZ / "simbolo", "simbolo", (8, 16, 32))
 salvar(logo_vertical(simbolo, letras), RAIZ / "logo", "logo-vertical", (4, 8, 16))
 salvar(logo_horizontal(simbolo, letras), RAIZ / "logo", "logo-horizontal", (4, 8, 16))
+salvar(avatar(simbolo, 4), RAIZ / "avatar", "avatar", (16, 32))

@@ -11,6 +11,7 @@
 | Pasta | Conteúdo |
 | --- | --- |
 | `logo/` | Logo completa nas versões vertical e horizontal, com fundo e transparente. |
+| `avatar/` | Símbolo com margem pro recorte redondo: foto da org, WhatsApp, Discord, itch, Trello. `16x` = 640 px, `32x` = 1280 px. |
 | `simbolo/` | Só o símbolo (lua, cristal e órbita), pra avatar e ícone. |
 
 Cada arte vem no tamanho original (`1x`) e ampliada sem perder o pixel (`4x`, `8x`, `16x`...).
